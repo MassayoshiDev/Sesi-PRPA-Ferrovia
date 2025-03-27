@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: #fff1dc;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .dock{
@@ -29,4 +30,37 @@ body{
 .logo > img{
     margin-top: 1%;
     height: 90%;
+}
+
+.insertInfoContainer{
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 5vh;
+}
+
+.insertInfoBox{
+    width: 300px;
+    height: 70px;
+    background-color: #545454;
+    margin-top: 3vh;
+    border-radius: 50px;
+    box-shadow: 5px 5px 1px orange;
+}
+
+.insertInfoBox > h2{
+    padding: 0;
+    margin: 0;
+    color: white;
+    padding-left: 27px;
+    padding-top: 19px;
+}
+
+.line{
+    width: 80%;
+    height: 3px;
+    margin: auto;
+    border-radius: 3px;
+    margin-top: 1px;
+    background-color: white;
 }

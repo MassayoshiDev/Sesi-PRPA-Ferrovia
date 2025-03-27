@@ -48,7 +48,7 @@ body{
     box-shadow: 5px 5px 1px orange;
 }
 
-.insertInfoBox > h2{
+.InfoBoxText{
     padding: 0;
     margin: 0;
     color: white;
@@ -57,10 +57,30 @@ body{
 }
 
 .line{
-    width: 80%;
+    width: 85%;
     height: 3px;
     margin: auto;
     border-radius: 3px;
     margin-top: 1px;
     background-color: white;
+}
+
+.flex{
+    display: flex;
+}
+
+.loginButtons{
+    text-align: center;
+    width: 40vh;
+    margin: auto;
+    margin-top: 4vh;
+}
+
+input{
+    all: unset;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 19px;
+    padding-left: 5px;
 }

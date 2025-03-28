@@ -3,6 +3,7 @@ body{
     padding: 0;
     background-color: #fff1dc;
     font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
 }
 
 .dock{
@@ -30,6 +31,7 @@ body{
 .logo > img{
     margin-top: 1%;
     height: 90%;
+    min-height: 90%;
 }
 
 .insertInfoContainer{
@@ -40,7 +42,7 @@ body{
 }
 
 .insertInfoBox{
-    width: 300px;
+    width: 360px;
     height: 70px;
     background-color: #545454;
     margin-top: 3vh;
@@ -79,8 +81,10 @@ body{
 input{
     all: unset;
     color: white;
-    font-size: 25px;
+    font-size: 15px;
     font-weight: bold;
-    padding-top: 19px;
+    padding-top: 26px;
     padding-left: 5px;
+    width: 100%;
+    overflow: hidden;
 }
